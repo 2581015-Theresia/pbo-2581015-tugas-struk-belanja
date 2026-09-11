@@ -38,3 +38,35 @@ public class Main {
 
         System.out.print("Jumlah          : ");
         int jumlah3 = scanner.nextInt();
+
+        // Menghitung subtotal
+        int subtotal1 = harga1 * jumlah1;
+        int subtotal2 = harga2 * jumlah2;
+        int subtotal3 = harga3 * jumlah3;
+
+        // Menghitung total belanja
+        int totalBelanja = subtotal1 + subtotal2 + subtotal3;
+
+        // Input uang dibayar
+        System.out.print("Uang dibayar    : ");
+        int uangDibayar = scanner.nextInt();
+
+        // Menghitung kembalian
+        int kembalian = uangDibayar - totalBelanja;
+
+        // Menampilkan struk
+        System.out.println();
+        System.out.println("===== STRUK BELANJA =====");
+
+        System.out.println(namaBarang1 + " " + jumlah1 + " x " + harga1 + " = " + subtotal1);
+        System.out.println(namaBarang2 + " " + jumlah2 + " x " + harga2 + " = " + subtotal2);
+        System.out.println(namaBarang3 + " " + jumlah3 + " x " + harga3 + " = " + subtotal3);
+
+        System.out.println("-------------------------");
+        System.out.println("Total belanja = " + totalBelanja);
+        System.out.println("Uang dibayar  = " + uangDibayar);
+        System.out.println("Kembalian     = " + kembalian);
+
+        scanner.close();
+    }
+}
