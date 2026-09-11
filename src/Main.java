@@ -28,3 +28,13 @@ public class Main {
         int jumlah2 = scanner.nextInt();
 
         scanner.nextLine();
+
+        // Barang 3
+        System.out.print("Nama barang 3   : ");
+        String namaBarang3 = scanner.nextLine();
+
+        System.out.print("Harga satuan    : ");
+        int harga3 = scanner.nextInt();
+
+        System.out.print("Jumlah          : ");
+        int jumlah3 = scanner.nextInt();
