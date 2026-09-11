@@ -16,3 +16,15 @@ public class Main {
         int jumlah1 = scanner.nextInt();
 
         scanner.nextLine();
+
+        // Barang 2
+        System.out.print("Nama barang 2   : ");
+        String namaBarang2 = scanner.nextLine();
+
+        System.out.print("Harga satuan    : ");
+        int harga2 = scanner.nextInt();
+
+        System.out.print("Jumlah          : ");
+        int jumlah2 = scanner.nextInt();
+
+        scanner.nextLine();
